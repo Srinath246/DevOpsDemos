@@ -3,10 +3,10 @@
 
 
 1. Create Ubuntu EC2 instance
-1. install AWSCLI
+1. install AWSCLI run as root user
    ```sh 
     curl https://s3.amazonaws.com/aws-cli/awscli-bundle.zip -o awscli-bundle.zip
-    apt install unzip python or apt install python3.8-venv
+    apt install unzip python or apt install python3.8-venv or apt-get python3.8 
     unzip awscli-bundle.zip
     #sudo apt-get install unzip - if you dont have unzip in your system
     ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
